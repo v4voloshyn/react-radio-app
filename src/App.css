@@ -1,38 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter:regular&display=swap);
+
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+body {
+  background: rgb(40, 31, 53);
+  background: linear-gradient(to right, rgb(228, 78, 19), rgb(223, 28, 93));
+  color: rgb(248, 247, 247);
+  font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+  margin: 1em 0 0 0;
+  font-size: 3em; 
+}
+
+h4 {
+  margin-bottom: 2em;
+}
+
+.radio {
+  max-width: 60em;
+  width: 100%;
+}
+
+.filters {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.filter {
+  margin: 5px 15px;
+  border: 1px solid #ca659d;
+  background: linear-gradient(to top left, rgb(224, 84, 28), rgb(209, 30, 90));
+  border-radius: 10px;
+  padding: 0.5em 0.75em;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selected {
+  background: linear-gradient(to right, rgb(189, 63, 14), rgb(180, 26, 77));
 }
