@@ -8,4 +8,4 @@ using:
 
 ### There is a preview link: [View in Vercel](https://react-radio-app.vercel.app/)
 
-![Screenshot](blob:https://vercel.com/222d5d39-899f-40a1-9f37-9c43ae73ee65)
+![Screenshot](https://user-images.githubusercontent.com/18702961/152560205-abc810aa-63d3-4c0d-b4e7-fd9f55069973.png)
