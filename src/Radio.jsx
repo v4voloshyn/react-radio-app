@@ -31,14 +31,10 @@ export const Radio = () => {
    }
    
    const filters = [
-      'classical',
-      'country',
       'dance',
-      'disco',
       'house',
       'jazz',
       'pop music',
-      'retro',
       'rock',
       'rap',
       'eclectic',
@@ -63,7 +59,6 @@ export const Radio = () => {
       </div>
       <div className="stations">
          {stations && stations.map((station, index) => {
-            console.log(station);
             return (
                <div className="station" key={index}>
                   <div className="station-name">
