@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 body {
@@ -19,15 +19,15 @@ body {
 }
 
 h1 {
-  margin: 1em 0 0 0;
+  margin: 0;
   text-align: center;
   font-size: 2em; 
 }
 
 h4 {
-  margin-bottom: 2em;
+  margin: 1rem auto;
   text-align: center;
-  
+
 }
 
 .radio {
@@ -40,7 +40,7 @@ h4 {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 2em;
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 100%;
 }
 
@@ -49,7 +49,7 @@ h4 {
   border: 1px solid #ca659d;
   background: linear-gradient(to top left, rgb(224, 84, 28), rgb(209, 30, 90));
   border-radius: 10px;
-  padding: 0.5em 0.75em;
+  padding: 0.5em 0.6em;
   cursor: pointer;
   text-transform: capitalize;
 }
