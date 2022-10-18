@@ -11,7 +11,7 @@ export const Radio = () => {
 	const [stationFilter, setStationFilter] = useState('');
 	const [filters, setFilters] = useState([]);
 
-	const api = new RadioBrowserApi('UKR Radio App');
+	const api = new RadioBrowserApi(fetch.bind(window), 'UKR Radio App');
 
 	const setupAPI = useCallback(async (stationFilter) => {
 		return api.searchStations({
