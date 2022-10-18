@@ -12,7 +12,7 @@ export const Radio = () => {
 	const [filters, setFilters] = useState([]);
 
 	const api = new RadioBrowserApi('UKR Radio App');
-	api.setBaseUrl('https://all.api.radio-browser.info');
+	api.setBaseUrl('https://de1.api.radio-browser.info/');
 
 	const setupAPI = useCallback(async (stationFilter) => {
 		return api.searchStations({
